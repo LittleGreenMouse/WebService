@@ -2,3 +2,6 @@
 */.idea
 */out
 *.iml
+
+# ignore java files chrated from wsdl dy wsimport
+HelloWorld/src/wsproxy
