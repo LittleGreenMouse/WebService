@@ -24,7 +24,7 @@ Develop a web service and call it in a client
   ```
   Note: 
   - Please change localhost:9999 to ip:port of your current server ip and port.
-  - -p wsproxy means collect them in packet wsproxy
+  - -p wsproxy means collect them in package wsproxy
   - If you want to see the java code, you can add -keep option
     ``` shell
     wsimport -keep -p wsproxy http://localhost:9999/ws/hello?wsdl
