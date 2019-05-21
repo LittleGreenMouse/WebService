@@ -5,3 +5,4 @@
 
 # ignore java files chrated from wsdl dy wsimport
 HelloWorld/src/wsproxy
+SimplifiedTraditionalConversion/src/wsproxy

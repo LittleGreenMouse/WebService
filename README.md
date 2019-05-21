@@ -37,3 +37,27 @@ Develop a web service and call it in a client
   ``` shell
   java wsclient.HelloWorldClient
   ```
+
+---
+
+## SimplifiedTraditionalConversion
+### What does it look like?
+![Conversion home page][1]
+### How to run?
+- Place SimplifiedTraditionalConversion in client host
+- Get wsdl from web service provider
+  ``` shell
+  wsimport -p wsproxy http://ws.webxml.com.cn/WebServices/TraditionalSimplifiedWebService.asmx?wsdl
+  ```
+- Compile them
+  ``` shell
+  javac wsclient\*.java
+  javac -encoding utf-8 view\*.java
+  javac -encoding utf-8 stage\*.java
+  ```
+- Run it and you will see the UI window
+  ``` shell
+  java stage.Main
+  ```
+
+[1]: .github/ConversionMainPage.gif
