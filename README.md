@@ -41,6 +41,8 @@ Develop a web service and call it in a client
 ---
 
 ## SimplifiedTraditionalConversion
+Make conversion between simplified Chinese and traditional Chinses, using a third-party web service.
+
 ### What does it look like?
 ![Conversion home page][1]
 ### How to run?
